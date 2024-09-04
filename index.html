@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fOOd-pOrt</title>
+    <style>
+
+    * {
+        margin: 0;
+        padding: 0;
+        background-image: url('images/istockphoto-976446562-612x612.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center; 
+    }
+
+    @media (max-width: 400px) {
+      .items{
+        width: 100px;
+      }
+      
+    }
+
+    header {
+        height: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .nav-logo {
+        height: 2rem;
+        width: 2rem;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        height: 1%;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        
+        
+
+    }
+    main{
+      
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .items{
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 2px solid black;
+      padding: 1rem 1rem 1rem 1rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .food-img{
+            height: 200px;
+            border-radius: 1.5rem;
+            overflow: hidden;
+            width: 80%;
+            transition: transform 0.5s ease;
+            margin: 1rem 0.5rem 1rem 0.5rem;
+    }
+
+    .food-img:hover{
+            transform: scale(1.1);
+    }
+
+    span{
+            text-align: center;
+    }
+
+    .nav-des{
+            text-shadow: 0 0 10px #FFA07A, 0 0 20px #FFA07A, 0 0 30px #FFA07A, 
+                         0 0 40px #FF8C00, 0 0 50px #FF8C00, 0 0 60px #FF8C00, 0 0 70px #FF8C00;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+    }
+
+    .site-logo{
+            height: 7rem;
+            width: 15rem;
+            border-radius: 1.5rem;
+            overflow: hidden;
+            transition: transform 0.5s ease;
+            margin: 1rem 0.5rem 1rem 0.5rem;
+
+    }
+   
+    footer{
+    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div >
+            <a href="https://www.facebook.com/login/" target="_blank">
+            <img  src="/images/fb.png" class="nav-logo" alt="facebook"></a>
+            <a href="https://www.instagram.com/accounts/login/" target="_blank">
+            <img src="/images/insta.png" class="nav-logo" alt="instagram"></a>
+            <a href="https://x.com/i/flow/login" target="_blank">
+            <img src="/images/x.png" class="nav-logo" alt="twitter"></a>
+        </div>
+        <img class="site-logo" src="images/site-logo.png" alt="site-logo">
+        <a href="">About me</a>
+    </header>
+    <nav>
+        <p class="nav-des">Explore the varieties of widely famous food items across the world and the best way to cook them</p>  
+      
+    </nav>
+    <main>
+      
+      <div class="items">
+        <h4>Chole Bhature</h4>
+        <img class="food-img" src="images/chole-bhature.jpg" alt="food-item">
+        <span> A combination of chana masala (spicy white chickpeas) and bhatura/puri, a deep-fried bread made from maida. Chole bhature is often eaten as a breakfast dish, sometimes accompanied with lassi.
+        </span>
+        <a href="https://hebbarskitchen.com/chole-bhature-recipe-chana-bhatura/" target="_blank">recipe</a>
+      </div>
+
+      <div class="items">
+        <h4>Fried rice</h4>
+        <img class="food-img" src="images/fried rice.jpg" alt="food-item">
+        <span> This dish is believed to have originated in Yangzhou in the Jiangsu province and was a favorite of Emperor Yang of the Sui Dynasty. It's made with day-old rice, vegetables, and eggs.
+        </span>
+        <a href="https://www.gimmesomeoven.com/fried-rice-recipe/" target="_blank">recipe</a>
+      </div>
+
+      <div class="items">
+        <h4>Tacos</h4>
+        <img class="food-img" src="images/tacos.jpg" alt="food-item">
+        <span> Tacos are a traditional Mexican dish consisting of small, hand-sized corn with various ingredients. The filling can include meats like beef, chicken, or pork, along with toppings like salsa, lettuce, cheese, and guacamole. They are often folded or rolled and eaten by hand.
+        </span>
+        <a href="https://www.vegrecipesofindia.com/veg-taco-recipe/" target="_blank">recipe</a>
+      </div>
+
+      <div class="items">
+        <h4>Sushi</h4>
+        <img class="food-img" src="images/sushi.jpg" alt="food-item">
+        <span> Sushi is a Japanese dish made with vinegared rice, often accompanied by seafood, vegetables, and occasionally tropical fruits. It can be prepared in various forms, such as rolls (maki), nigiri (slices of fish over rice), or sashimi (slices of raw fish). Soy sauce, wasabi, and pickled ginger are common accompaniments.
+        </span>
+        <a href="https://www.allrecipes.com/recipe/24228/sushi-roll/" target="_blank">recipe</a>
+      </div>
+
+      <div class="items">
+        <h4>Lasagna</h4>
+        <img class="food-img" src="images/lasagna.jpg" alt="food-item">
+        <span> Lasagna is a popular Italian dish made by layering sheets of pasta with fillings such as meat, cheese (usually ricotta or mozzarella), and tomato sauce. It is baked until the cheese is melted and bubbly, creating a rich, hearty meal. Variations may include vegetables or different types of meat.
+        </span>
+        <a href="https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/" target="_blank">recipe</a>
+      </div>
+
+      <div class="items">
+        <h4>Ramen</h4>
+        <img class="food-img" src="images/ramen.jpg" alt="food-item">
+        <span> Ramen is a Japanese noodle soup dish that typically includes Chinese-style wheat noodles served in a savory broth. The broth can be based on pork, chicken, or soy sauce, and toppings often include slices of pork, green onions, boiled eggs, and nori (seaweed). Ramen is known for its deep, umami flavors.
+        </span>
+        <a href="#">recipe</a>
+      </div>
+
+      <div class="items">
+        <h4>Aloo Paratha</h4>
+        <img class="food-img" src="images/aloo paratha.jpg" alt="food-item">
+        <span> Aloo Paratha is a popular North Indian flatbread stuffed with a spiced potato filling. The dough is made from whole wheat flour, and the potato mixture often includes ingredients like onions, coriander, and spices like cumin and garam masala. It’s usually cooked on a griddle with ghee or oil and served with yogurt, pickles, or butter.
+        </span>
+        <a href="https://cooking.nytimes.com/recipes/1016583-perfect-instant-ramen" target="_blank">recipe</a>
+      </div>
+
+      <div class="items">
+        <h4>Italian Pizza</h4>
+        <img class="food-img" src="images/italian pizza.jpg" alt="food-item">
+        <span> Italian pizza is a savory dish that consists of a thin, crispy dough base topped with tomato sauce, cheese (typically mozzarella), and various other ingredients such as meats, vegetables, and herbs. Traditional Italian pizzas are baked in wood-fired ovens, giving them a distinct flavor and texture. Popular varieties include Margherita, Marinara, and Quattro Stagioni.
+        </span>
+        <a href="https://www.emmafontanella.com/authentic-italian-pizza">recipe</a>
+      </div>
+
+      
+    </main>
+    <footer>
+      <p class="footer-text">This website is developed by Abhijit Bagate for Educational purpose </p>
+      <a href="#">Terms and Conditions</a>
+    </footer>
+    
+</body>
+</html>
